@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1f2633;
+}
+
+#main {
+    width: 95vw;
+    height: 95vh;
+    text-align: center;
+}
+
+#div1 {
+    background-color: #3369ff;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+}
+#div1 h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+}
+#div1 label {
+    margin: 15px;
+    padding: 15px;
+    font-size: 25px;
+    color: #ffffff;
+}
+#div1 input {
+    margin: 2.5px;
+    padding: 2.5px;
+    border-radius: 5px;
+    border-style: none;
+}
+#div1 button {
+    background-color: #feb52b;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#main h2 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 45px;
+    color: #feb52b;
+}
+
+#div2 {
+    text-align: center;
+    margin: 25px;
+
+}
+#div2 button {
+    border-radius: 5px;
+    margin: 2.5px;
+}
+
+#div3 {
+    text-align: center;
+    margin: 25px;
+}
+#div3 button {
+    border-radius: 5px;
+    margin: 2.5px;
+}
+
+#div4 {
+    text-align: center;
+}
+#div4 button {
+    background-color: #feb52b;
+    border: none;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#div5 {
+    text-align: center;
+}
+#div5 span {
+    margin: 15px;
+    padding: 15px;
+    font-size: 45px;
+    color: #feb52b;
+}

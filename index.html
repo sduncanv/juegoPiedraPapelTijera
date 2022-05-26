@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main id="main">
+        <div id="div1">
+            <h1>Piedra, papel o tijera</h1>
+            
+            <form action="">
+                <label for="firstName">Jugador 1:</label>
+                <input id="firstName" type="text"><br>
+                <br>
+                <label for="secondName">Jugador 2:</label>
+                <input id="secondName" type="text"><br>
+
+                <button type="button" onclick="start()">Empezar</button>
+                <button type="button" onclick="restar()">Nuevo juego</button>
+            </form>
+
+        </div>
+
+        <h2>Jugadores: <span id="playerF"></span> <span id="playerS"></span></h2>
+
+        <div id="div2">
+
+            <button type="button" class="button" id="buttonStoneFirst">
+                <img src="./img/piedra.png" alt="" height="180">
+            </button>
+            <button type="button" class="button" id="buttonPaperFirst">
+                <img src="./img/papel.png" alt="" height="180">
+            </button>
+            <button type="button" class="button" id="buttonScissorFirst">
+                <img src="./img/tijera.png" alt="" height="180">
+            </button>
+
+        </div>
+
+        <div id="div3">
+
+            <button type="button" class="button" id="buttonStoneSec">
+                <img src="./img/piedra.png" alt="" height="180">
+            </button>
+            <button type="button" class="button" id="buttonPaperSec">
+                <img src="./img/papel.png" alt="" height="180">
+            </button>
+            <button type="button" class="button" id="buttonScissorSec">
+                <img src="./img/tijera.png" alt="" height="180">
+            </button>
+
+        </div>
+
+        <div id="div4">
+            <button onclick="show()">Ver ganador</button>
+        </div>
+
+        <div id="div5">
+            <span id="spanResult">Ronda en curso</span>
+        </div>
+
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
